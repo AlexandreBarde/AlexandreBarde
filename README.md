@@ -11,6 +11,10 @@ Sinon, à titre personnel je touche un peu à tout, que ça soit du backend, fro
 
 Vous pouvez aller voir mes différents projets si vous êtes intéressés.
 
+### CV
+
+Mon CV est disponible [ici](https://github.com/AlexandreBarde/AlexandreBarde/blob/master/FR_Resume/resume.pdf).
+
 ## English
 
 ### Hi 👋
@@ -21,6 +25,10 @@ Otherwise, personally I did a little bit of everything, like backend, frontend, 
 
 ### 📫 Contact me :
 - Mail : alexandre@brde.fr
+
+### Résumé
+
+My résumé is available [here](https://github.com/AlexandreBarde/AlexandreBarde/blob/main/EN_Resume/resume.pdf).
 
 ## Suivez-moi / Follow me
 

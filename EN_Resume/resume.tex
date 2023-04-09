@@ -1,0 +1,181 @@
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} 
+
+\usepackage{geometry} 
+
+%------------------------------------------------
+
+\name{Barde Alexandre} 
+
+\address{Software and data engineer \\ Specialized in the space industry}
+
+\address{Available in Montreal in September}
+
+\address{alexandre@brde.fr \\ https://alexandre.brde.fr} 
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{About me}
+
+	I am a software engineer who has worked on a variety of projects, all of which have space in common. 
+	I am used to working on projects with large data streams. I also had the opportunity to work on many different languages, those where I practice the most are Java, Python and Golang. 
+	I also work daily on cloud technologies, such as Kubernetes, Helm and Docker. All this is orchestrated on automated pipelines via different tools such as GitlabCI.
+
+\end{rSection}
+
+\begin{rSection}{Education}
+	
+	\textbf{Master’s degree in computer science} \hfill \textit{2019 - 2021} \\ 
+	Double degree : \\
+	- IT expert and information system \\
+	- Software development expert \\
+	Creation of Android applications in Java, whether for management applications or virtual reality games. 
+	Machine learning and deep learning for processing massive data and creating a chatbot to help diagnose a covid case.
+	Creation of pipelines and scripts on GitlabCI to learn how to set up development and integration automation.
+	\hfill { YNOV Campus, Toulouse }
+
+
+	\textbf{Bachelor degree in software development and quality} \hfill {\em 2018 - 2019} \\ 
+	Advanced Java skills and various web languages, such as PHP, NodeJS and client-server architectures. 
+	Mastery of the main agile software development methods, such as Scrum and eXtreme Programming, Test Driven Development.
+	\hfill { Paul Sabatier, Toulouse }
+
+
+	\textbf{Associate degree in computer science} \hfill {\em 2016 - 2018} \\
+	Learning of several languages, like C, Java, Python, ADA. Design and administration of databases with Oracle or MySQL. 
+	Advanced use of Linux on a daily basis, writing different scripts as well as learning about the network and the administration and maintenance of Linux servers.
+	\hfill { Paul Sabatier, Toulouse }
+
+	\textbf{Technological baccalaureate STISD} \hfill {\em 2015 - 2016} \\ 
+	Sciences and Technologies of Industry and Sustainable Development - 
+	Information System and Digital Specialty Study of digital processing, learning of electronics and development of embedded software. \\ 
+	Design of a project to convert a street lamp into a connected street lamp, in order to be able to control it remotely via a web application and to automate it. 
+	Live recovery of the values of the batteries and the solar panels.
+	\hfill { Lycée Georges Cabanis, Brive La Gaillarde }
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional experience}
+
+	\begin{rSubsection}{Software and data engineer on Galileo}{November 2021 - Now}{Thales Alenia Space, Toulouse}{}
+		\item Galileo is the European satellite positioning system initiated by the European Union. 
+		Creation of a tool that allows to retrieve data from the constellation, to group them and to process them.
+ 		\item Use of Java, as well as SpringBoot for the management of microservices.
+ 		\item Deploy using cloud technologies like Kubernetes, Helm and Docker.
+ 		\item Using RabbitMQ and its clients in different languages to manage the data flow.
+		\item \textbf{Technologies used :} Java, Python, Golang, Kubernetes, Helm, Docker, GitlabCI, Minio, RabbitMQ, Redis, InfluxDB.
+	\end{rSubsection}
+
+	\begin{rSubsection}{Full stack developer - Apprenticeship}{October 2019 - October 2021}{Thales Alenia Space, Toulouse}{}
+		\item G2G is the program for the renewal of the Galileo satellite constellation via an ESA call for tender. 
+			Development of prototypes for the planning management of all the activities of the constellation and the ground segment. 
+			Like the maintenance of a satellite or the contact from the ground to a satellite to send navigation data.
+		\item \textbf{Technologies used :} Golang, MongoDB, Docker, NodeJS, Swagger, tests end to end, GitlabCI.
+		\item Second project: Architecture, development and cloud deployment of a monitoring and predictive maintenance 
+			product for satellite constellation monitoring (HUMS: Health and Usage Monitoring System).
+		\item \textbf{Technologies used :} Kubernetes, Helm, Docker, Python, PostgreSQL, Kafka, nagular, NodeJS, Azure.
+	\end{rSubsection}
+
+	\begin{rSubsection}{Full stack developer - Internship}{April 2019 - August 2019}{Thales Alenia Space, France}{}
+		\item Development of a Web GUI to supervise and configure satellite telecommunications network equipment installed in a traffic docking station.
+		\item \textbf{Technologies used :} Angular, Grafana, API Rest and WebSocket.
+	\end{rSubsection}
+
+	\begin{rSubsection}{Web Developer - Internship}{April 2018 - June 2018}{GNH Conseil, Toulouse}{}
+		\item Development of a Web tool to promote the implementation of actions in favor of sustainable development.
+		\item \textbf{Technologies used :} Object-oriented PHP, MySQL database, Javascript.
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical skills}
+
+	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+		Software languages & C, C++, C\#, Golang, Java\\
+		Languages & Python, Django, Bash, PHP, JavaScript, NodeJS  \\
+		Technologies & MVC, HTML5, CSS, Latex, GIT\\
+		Databases - NoSQL & MongoDB, Cassandra, Redis\\
+		Databses - SQL & MariaDB, MySQL, SQLite, Oracle, PostgreSQL, InfluxDB\\
+		Tests & TDD, Junit, PHPUnit, Robot Framework\\
+		Cloud & Azure, Kubernetes, Helm, Docker, Firebase, Azure\\
+		CI/CD & GitlabCI, Jenkins
+	\end{tabular}
+
+\end{rSection}
+
+\begin{rSection}{Projects}
+	{\bf TeamMatesFinder - YNOV Campus}
+	\\ Platform that allows you to search for video game teammates based on specific criteria such as their level, their role or if they are sociable.
+	\\ \textbf{Technologies used :} Docker, PostgreSQL, Angular, ExpressJS, NodeJS.
+
+	{\bf Online store - AtelierCausseNature}
+	\\ Development of an online store of a craftsman who works with wood to produce jewelry or decorative objects.
+	\\ \textbf{Technologies used :} NGINX, Symfony, PHP, MySQL, Bootstrap.
+
+	{\bf DevOPS pipeline - YNOV Campus}
+	\\ Automated deployment via the GitLab CI. Run tests, build, create a Docker image for deployment, error handling with Sentry and notification system via Slack.
+	\\ \textbf{Technologies used : }GitLab CI, Docker, Shell, API Slack.
+
+	{\bf Android Development - YNOV Campus}
+	\\ Development of an Android application to manage a child’s schedule, with tasks, alarm clocks and reminders. 
+	It allows to leave autonomy to the child so that it is responsible. This application is written in Java via Android Studio.
+	\\ \textbf{Technologies used :} Java - Android Studio, Firebase.
+
+	{\bf Technical referent database - Aldostra}
+	\\ Advice and management of the databases of the Aldostra project, which is a Minecraft server on the Harry Potter universe, several hundreds of players 
+	connect to it in order to embody a character. I also set up the migration of our databases from Redis to MySQL by creating Java scripts to transfer the thousands of data.
+	\\ \textbf{Technologies used :} Java, Redis, MySQL.
+
+	{\bf Co-manager of the 1st French-speaking forum Skript - Skript-MC}
+	\\ Skrip-MC is the first French-speaking Skript forum, which is a Minecraft plugin allowing to simplify the development on the game. 
+	Our community has nearly 25,000 members, I manage the team and the technical aspects of the forum.
+	\\ \textbf{Technologies used :} PHP, NGINX, XenForo, communication on social networks, team management.
+
+	{\bf DreamTech - Bachelor degree in software development and quality}
+	\\ Development of a collaborative and playful platform to connect students wishing to revise. 
+	It allows to find partners to revise or an experienced student in a subject who seeks to help others. 
+	It integrates a gamification system to motivate users to use the site and its features, such as a system of experience, rewards or ranking. 
+	Implemented a continuous integration system with TravisCI and PHPUnit tests to guarantee a good maintainability of the project.
+	\\ \textbf{Technologies used :} Symfony, TravisCI, Bootstrap, JavaScript, MySQL, PHPUnit, Scrum.
+
+
+\end{rSection}
+
+\begin{rSection}{Certifications}
+
+    \begin{rSubsection}{Electrical authorization - B0 H0 BR BE Essai}{INRS France}{}{}
+	\item B0 : Possibility of doing non-electrical work on low voltage equipment
+	\item H0 : Ability to do non-electrical work on high voltage equipment
+	\item BR : In charge of general interventions on low voltage installations
+	\item BE Essai : Specific operations (tests, verification, measurement, operation) on low voltage installations
+    \end{rSubsection}
+
+    \begin{rSubsection}{Certified Kubernetes Application Developer (CKAD) - In progress}{Cloud Native Computing Foundation - The Linux Foundation}{}{}
+	\item Core concepts : Understand how the Kubernetes API primitives work. Create and configure Pods.
+	\item Configuration : Understand how ConfigMaps and SecurityContexts work. Definition of the resources of an application. Create and use Secrets. Understand how ServiceAccounts work.
+	\item Multi-Container Pods : Understand the multi-container architecture of Pods.
+	\item Observabiliy : Understanding how LivenessProbes and ReadinessProbes work. Handling container logs. Application monitoring in Kubernetes. Debugging in Kubernetes.
+	\item Pod Design : Deployments, RollingUpdate and rollbacks. Understanding how Jobs and CronJobs work. Handling Labels, Selectors and Annotations.
+	\item Services and Networking : Understand how the Services work. Handling NetworkPolicies.
+	\item State Persistence : Use of PersistentVolumeClaims for data storage.
+    \end{rSubsection}
+
+\end{rSection}
+
+\end{document}
