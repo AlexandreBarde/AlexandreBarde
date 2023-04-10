@@ -28,7 +28,7 @@ Otherwise, personally I did a little bit of everything, like backend, frontend, 
 
 ### Résumé
 
-My résumé is available [here](https://github.com/AlexandreBarde/AlexandreBarde/blob/main/EN_Resume/resume.pdf).
+My résumé is available [here](https://github.com/AlexandreBarde/AlexandreBarde/blob/master/EN_Resume/resume.pdf).
 
 ## Suivez-moi / Follow me
 
