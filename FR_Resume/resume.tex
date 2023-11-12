@@ -1,19 +1,19 @@
 \documentclass[
 	%a4paper, % Uncomment for A4 paper size (default is US letter)
-	11pt, % Default font size, can use 10pt, 11pt or 12pt
+	10pt, % Default font size, can use 10pt, 11pt or 12pt
 ]{resume} % Use the resume class
 
 \usepackage{geometry} % Use the EB Garamond font
 
 %------------------------------------------------
 
-\name{Barde Alexandre} % Your name to appear at the top
+\name{Barde Alexandre}
 
-\address{Ingénieur logiciel, data et Scrum Master \\ Spécialisé dans le domaine spatial} % Main address
+\address{Ingénieur logiciel spécialisé dans le développement logiciel cloud-native et le domaine spatial}
 
-\address{Montréal, H3H 0B2} 
+\contact{alexandre.brde@gmail.com \\ https://alexandre.brde.fr \\ +1 (438) 338 3007}
 
-\address{alexandre@brde.fr \\ https://alexandre.brde.fr} % Contact information
+\address{Montréal, H3H 0B2 }
 
 %----------------------------------------------------------------------------------------
 
@@ -23,35 +23,24 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{A propos de moi}
- 
-	Je suis un ingénieur logiciel et un Scrum Master qui a travaillé sur des projets assez variés, ayant pour point commun le domaine du spatial. 
-	J'ai l'habitude de travailler sur des projets utilisant de gros flux de données. 
-	J'ai eu l'occasion également de travailler sur de nombreux langages différents, ceux où j'exerce le plus sont le Java, le Python ainsi que le Golang. 
-	Je travaille également quotidiennement sur des technologies "Cloud", tel que Kubernetes, Helm et Docker. 
-	Tout ceci est orchestré sur des pipelines automatisées via différents outils tel que GitlabCI. 
-
-\end{rSection}
-
 \begin{rSection}{Parcours scolaire}
 	
 	\textbf{Mastère informatique} \hfill \textit{2019 - 2021} \\ 
 	Double diplôme : \\
 	- Expert informatique et système d'information \\ 
 	- Expert en développement logiciel \\
-	Création d'applications Android en Java, que ça soit pour des applications de gestion ou bien des jeux en réalité virtuelle. 
-	Apprentissage de machine learning et deep learning pour le traitement de données massives et la création d'un chatbot pour aider à diagnostiquer un cas covid. 
-	Création de pipelines et de scripts sur GitlabCI pour apprendre à mettre en place de l'automatisation de développement et d'intrégration.
+	Création d'applications Android en Java, Javascript et Unity, pour des applications de gestion ou des jeux en réalité virtuelle. 
+	Apprentissage du machine learning et deep learning pour le traitement de données massives et la création d'un chatbot pour aider à diagnostiquer un cas covid. 
+	Création de pipelines et de scripts sur GitlabCI pour la mise en place d'automatisation de développement, d'intrégration et déploiement.
 	\hfill { YNOV Campus, Toulouse }
 
-
 	\textbf{Licence professionnelle développement et qualité des logiciels} \hfill {\em 2018 - 2019} \\ 
-	Montée en compétences en Java avancée et de différents langages web, tel que le PHP, NodeJS ainsi que des architectures clients serveurs. 
+	Développement en Java avancée et de différents langages web, tel que le PHP, NodeJS ainsi que des architectures clients serveurs. 
 	Maitrise des principales méthodes agiles de développement logiciel, comme le Scrum et l'eXtreme Programming, le Test Driven Development. 
 	\hfill { Paul Sabatier, Toulouse }
 
 	\textbf{IUT Informatique} \hfill {\em 2016 - 2018} \\
-	Apprentissage de plusieurs langage, comme le C, le Java, le Python, l'ADA. Conception et administration de base de données avec Oracle ou MySQL. 
+	Apprentissage de plusieurs langages, comme le C, le Java, le Python, le PHP, l'ADA. Conception et administration de base de données avec Oracle ou MySQL. 
 	Utilisation avancée de Linux au quotidien, écriture de différents scripts ainsi que l'apprentissage du réseau et l'administration et le maintient de serveur Linux.
 	\hfill { Paul Sabatier, Toulouse }
 
@@ -59,7 +48,6 @@
 	Sciences et Technologies de l'Industrie et du Développement Durable - Spécialité Système d'Information et Numérique
 	Étude du traitement numérique, apprentissage de l'électronique ainsi que du développement de logiciel embarqué. 
 	Conception d'un projet pour convertir un lampadaire en lampadaire connecté, afin de pouvoir le piloter à distance via une application web et de l'automatiser. 
-	Récupération en direct des valeurs des batteries et des panneaux solaires.  
 	\hfill { Lycée Georges Cabanis, Brive La Gaillarde }
 
 \end{rSection}
@@ -70,33 +58,29 @@
 
 \begin{rSection}{Experience professionnelle}
 
-	\begin{rSubsection}{Ingénieur logiciel, data et Scrum Master sur Galileo}{Novembre 2021 - Maintenant}{Thales Alenia Space, Toulouse}{}
- 		\item Galileo est le système de positionnement par satellites européeen inité par l'Union européenne. 
+	\begin{rSubsection}{Ingénieur logiciel / data et Scrum Master sur Galileo}{Novembre 2021 - Maintenant}{Thales Alenia Space, Toulouse}{}
 		\item Animation et préparation des différentes cérémonies dans un projet SAFe.
-		\item Développement de microservices JAVA avec SpringBoot afin de récupérer différents flux (MDDN, OSPF, SIS, PRS, etc) de la constellation Galileo en temps réel, de les décoder, traiter et socker dans des base de données. Afin de monitorer l'état de santé de la constellation. 
+		\item Développement de microservices JAVA avec SpringBoot afin de récupérer différents flux (MDDN, OSPF, SIS, PRS, etc) du système de positionnement par satellites européeen en temps réel, de les décoder, traiter et socker dans des base de données. Afin de monitorer l'état de santé de la constellation. 
  		\item Déploiement en utilisant des technologies cloud comme Kubernetes, Helm et Docker.
  		\item Utilisation de RabbitMQ et de ses clients dans différents langages pour gérer le flux de données. Redis pour du Caching et InfluxDB pour du stockage.
 		\item \textbf{Technologies utilisées : }Java, Python, Golang, Kubernetes, Helm, Docker, GitlabCI, Minio, RabbitMQ, Redis, InfluxDB.
 	\end{rSubsection}
 
 	\begin{rSubsection}{Développeur full stack - Alternance}{Octobre 2019 - Octobre 2021}{Thales Alenia Space, Toulouse}{}
- 		\item G2G est le programme de renouvellement de la constellation de satellites Galileo via un appel d'offre de l'ESA. 
-			Développement des prototypes pour la gestion de planning de toutes les activités de la constellation et du segment sol. 
-			Comme la maintenance d'un satellite ou bien le contact du sol vers un satellite pour l'envoi de données de navigation.
- 		\item Technologies utilisées : Golang, MongoDB, Docker, NodeJS, Swagger, tests end to end, GitlabCI.
+ 		\item Développement de l'outil de gestion de planning de toutes les activités de la constellation et du segment sol du projet Galileo Second Generation. Comme la maintenance d'un satellite ou le contact du sol vers un satellite pour l'envoi de données de navigation.
  		\item Second projet de l'alternance : Architecture, développement et déploiement cloud d'un produit de monitoring et de maintenance prédictive 
 			pour la surveillance de constellation de satellites (HUMS : Health and Usage Monitoring System).
-		\item \textbf{Technologies utilisées :} Kubernetes, Helm, Docker, Python, PostgreSQL, Kafka, Angular, NodeJS, Azure.
+		\item \textbf{Technologies utilisées :} Golang, NodeJS, Python, C++, MongoDB, PostgreSQL, Kafka, Docker, Helm, Kubernetes, Azure, Angular, Swagger, GitlabCI.
 	\end{rSubsection}
 
 	\begin{rSubsection}{Développeur full stack - Stage}{Avril 2019 - Août 2019}{Thales Alenia Space, France}{}
- 		\item Développement d'une IHM Web afin de superviser et configurer des équipements du réseau de télécommunications du satellite installés dans une station d'ancrage du traffic.
+ 		\item Développement d'un outil Web afin de superviser et configurer des équipements du réseau de télécommunications du satellite installés dans une station d'ancrage du traffic.
 		\item  \textbf{Technologies utilisées :} Angular, Grafana, API Rest et WebSocket.
 	\end{rSubsection}
 
-	\begin{rSubsection}{Développeur web - Stage}{Avril 2018 - Juin 2018}{GNH Conseil, Toulouse}{}
- 		\item Développement d'un outil Web favorisant la mise en oeuvre d'actions en faveur du développement durable.
-		\item \textbf{Technologies utilisées :} PHP orienté objets, base de données MySQL, Javascript.
+	\begin{rSubsection}{Développeur full stack - Stage}{Avril 2018 - Juin 2018}{GNH Conseil, Toulouse}{}
+ 		\item Architecture, développement et déploiement d'un outil Web favorisant la mise en oeuvre d'actions en faveur du développement durable.
+		\item \textbf{Technologies utilisées :} PHP, MySQL, Bootstrap, Javascript, NGINX.
 	\end{rSubsection}
 
 \end{rSection}
@@ -108,30 +92,24 @@
 \begin{rSection}{Compétences techniques}
 
 	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-		Langages logiciel & C, C++, C\#, Golang, Java\\
-		Langages & Python, Django, Bash, PHP, JavaScript, NodeJS  \\
-		Technologies & MVC, HTML5, CSS, Latex, GIT\\
-		Base de données - NoSQL & MongoDB, Cassandra, Redis\\
+		Langages & C, C++, C\#, Golang, Java, Python, Bash, PHP, JavaScript, LateX  \\
+		Base de données - NoSQL & MongoDB, Cassandra, Redis, Firebase\\
 		Base de données - SQL & MariaDB, MySQL, SQLite, Oracle, PostgreSQL, InfluxDB\\
-		Tests & TDD, Junit, PHPUnit, Robot Framework\\
-		Cloud & Azure, Kubernetes, Helm, Docker, Firebase, Azure\\
-		CI/CD & GitlabCI, Jenkins
+		Tests & TDD, Junit, PHPUnit, Robot Framework, JestJS, Cypress, Jasmine, Karma\\
+		Cloud & Azure, Kubernetes, Helm, Docker\\
+		CI/CD & GitlabCI, Jenkins, TravisCI
 	\end{tabular}
 
 \end{rSection}
 
 \begin{rSection}{Projets}
 	{\bf TeamMatesFinder - YNOV Campus}
-	\\Plateforme permettant de rechercher des coéquipiers de jeux-vidéos sur des critères précis comme par exemple son niveau, son rôle ou encore s'ils sont sociable.
+	\\Plateforme permettant de rechercher des coéquipiers de jeux-vidéos sur des critères précis comme par exemple son niveau ou son rôle.
 	\\ Technologies utilisées : Docker, PostgreSQL, Angular, ExpressJS, NodeJS.
 
 	{\bf Boutique en ligne - AtelierCausseNature}
 	\\Développement d'une boutique en ligne d'un artisant qui travaille avec le bois pour produire des bijoux ou des objets de décoration.
 	\\ Technologies utilisées : NGINX, Symfony, PHP, MySQL, Bootstrap.
-
-	{\bf Pipeline DevOPS - YNOV Campus}
-	\\Déploiement automatisé via la GitLab CI. Lancement de tests, build, création d'une image Docker pour le déploiement, gestion des erreurs avec Sentry et système de notifications via Slack.
-	\\ Technologies utilisées : GitLab CI, Docker, Shell, API Slack.
 
 	{\bf Développement Android - YNOV Campus}
 	\\Développement d'une application Android pour gérer l'emploi du temps d'un enfant, avec des tâches, réveils, alarmes et des rappels. 
@@ -148,34 +126,10 @@
 	\\ Technologies utilisées : PHP, NGINX, XenForo, communication sur les réseaux sociaux, gestion d'équipe.
 
 	{\bf DreamTech - Licence professionnelle}
-	\\Développement d'une plateforme collaborative et ludique afin de mettre en relaion des étudiants souhaitant réviser. 
-	Il permet de trouver des partenaires pour réviser ou un étudiant expérimenté dans une matière qui chercher à aider autrui. 
+	\\Développement d'une plateforme collaborative et ludique afin de mettre en relation des étudiants souhaitant réviser. 
 	Il intégère un système de gamification pour motiver les utilisateurs à utiliser le site et ses fonctionnalités, comme un système d'expérience, de récompenses ou de classement. 
 	Mise en place d'un système d'intégration continue grâce à TravisCI ainsi que des tests PHPUnit pour garantir une bonne maintenabilité du projet.
 	\\ Technologies utilisées : Symfony, TravisCI, Bootstrap, JavaScript, MySQL, PHPUnit, Scrum.
-
-\end{rSection}
-
-\begin{rSection}{Certifications}
-
-    \begin{rSubsection}{Habilitation électrique - B0 H0 BR BE Essai}{INRS France}{}{}
-        \item B0 : Possibilité de faire des travaux non électrique sur des équipements basse tension 
-        \item H0 : Possibilité de faire des travaux non électrique sur des équipements haute tension
-        \item BR : Chargé d'interventions générales sur des installations basse tension 
-        \item BE Essai : Opérations spécifique (essais, vérification, mesurage, manoeuvre) sur des installations basse tension
-    \end{rSubsection}
-
-    \begin{rSubsection}{Certified Kubernetes Application Developer (CKAD) - En cours}{Cloud Native Computing Foundation - The Linux Foundation}{}{}
-        \item Core concepts : Comprendre le fonctionnement des primitives de l'API Kubernetes. Créer et configurer des Pods.
-        \item Configuration : Comprendre le fonctionnement des ConfigMaps, SecurityContexts. Définition des ressources d'une application. Création et utilisation des Secrets. 
-		Comprendre le fonctionnement des ServiceAccounts.
-        \item Multi-Container Pods : Comprendre l'architecture multi-conteneur des Pods.
-        \item Observabiliy : Comprendre le fonctionnement des LivenessProbes et ReadinessProbes. Manipulation des logs d'un conteneur. 
-		Monitoring d'application dans Kubernetes. Debugging dans Kubernetes.
-        \item Pod Design : Déploiements, RollingUpdate et rollbacks. Comprendre le fonctionnemnt des Jobs et CronJobs. Manipulation des Labels, Selectors et Annotations.
-        \item Services et Networking : Comprendre le fonctionnement des Services. Manipulation des NetworkPolicies.
-        \item State Persistence : Utilisation des PersistentVolumeClaims pour le stockage des données.
-    \end{rSubsection}
 
 \end{rSection}
 

@@ -50,6 +50,7 @@
 \let \@addressone \relax
 \let \@addresstwo \relax
 \let \@addressthree \relax
+\let \@addressfour \relax
 
 % The \address command is used to set the first, second and third address lines (the last 2 are optional)
 \newcommand{\address}[1]{
@@ -61,6 +62,13 @@
 		}{ % Otherwise, set the third address line
 			\def \@addressthree {#1}
 		}%
+	}
+}
+
+% The \contact command is used to set the first
+\newcommand{\contact}[1]{
+	\@ifundefined{@contactone}{ % If the first address line has not been set yet, set it
+		\def \@contactone {#1}
 	}
 }
 
@@ -91,6 +99,7 @@
 	\ori@document  % Output the original \document command but add to it below
 	\printname % Output the user's name
 	\@ifundefined{@addressone}{}{\printaddress{\@addressone}} % Output the first address if specified
+	\@ifundefined{@contactone}{}{\printaddress{\@contactone}} % Output the third address if specified
 	\@ifundefined{@addresstwo}{}{\printaddress{\@addresstwo}} % Output the second address if specified
 	\@ifundefined{@addressthree}{}{\printaddress{\@addressthree}} % Output the third address if specified
 }
