@@ -13,7 +13,7 @@ Sinon, à titre personnel je touche un peu à tout, que ça soit du backend, fro
 
 ### CV
 
-Mon CV est disponible [ici](https://github.com/AlexandreBarde/AlexandreBarde/blob/master/FR_Resume/resume.pdf).
+Mon CV est disponible [ici](https://github.com/AlexandreBarde/AlexandreBarde/blob/master/FR_Resume/resume_fr.pdf).
 
 ## English
 
@@ -30,7 +30,7 @@ Otherwise, personally I did a little bit of everything, like backend, frontend, 
 
 ### Résumé
 
-My résumé is available [here](https://github.com/AlexandreBarde/AlexandreBarde/blob/master/EN_Resume/resume.pdf).
+My résumé is available [here](https://github.com/AlexandreBarde/AlexandreBarde/blob/master/EN_Resume/resume_en.pdf).
 
 ## Portfolio
 
