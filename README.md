@@ -8,6 +8,8 @@ Ces logiciels sont intégrés dans les produits [RT-LAB](https://www.opal-rt.com
 
 Sinon, à titre personnel je touche un peu à tout, que ça soit du backend, frontend, architecture, base de données ..
 
+Mon mémoire de Master est disponible en [PDF](https://github.com/AlexandreBarde/AlexandreBarde/blob/master/Memoire_BARDE_Alexandre.pdf) - Comment faire un mode de déploiement "cloud-agnostic" pour s'adapter aux contraintes de sécurité des clients ?
+
 ### 📫 Pour me contacter :
 - Mail : alexandre@brde.fr
 
@@ -24,6 +26,8 @@ I'm a Software engineer at [@Opal-RT](https://www.opal-rt.com/) where I design a
 This software is integrated into the [RT-LAB](https://www.opal-rt.com/software-rt-lab/) and [Hypersim](https://www.opal-rt.com/systems-hypersim/) products, which enable real-time simulation of electrical networks, power electronics and the automotive and aerospace industries.
 
 Otherwise, personally I did a little bit of everything, like backend, frontend, architecture, databases, ...
+
+My Master's thesis is available in [PDF](https://github.com/AlexandreBarde/AlexandreBarde/blob/master/Memoire_BARDE_Alexandre.pdf) (Only in French) - How can cloud-agnostic deployment be adapted to customers' security constraints ?
 
 ### 📫 Contact me :
 - Mail : alexandre@brde.fr
